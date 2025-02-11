@@ -6,9 +6,14 @@
     xmlns:local="clr-namespace:Rent_Wheels_App_Template"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Rentals">
+            <ShellContent
+                Title="Rental Contracts"
+                ContentTemplate="{DataTemplate local:RentalPage}"
+                Route="RentalPage" />
+            
+        </Tab>
+    </TabBar>
 
 </Shell>
