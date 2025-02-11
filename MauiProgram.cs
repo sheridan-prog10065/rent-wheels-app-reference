@@ -1,4 +1,4 @@
-﻿namespace Rent_Wheels_App_Template;
+﻿namespace RentWheelsApp;
 
 public static class MauiProgram
 {

@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Rent_Wheels_App_Template;
+namespace RentWheelsApp;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

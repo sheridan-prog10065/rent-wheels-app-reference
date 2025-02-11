@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace Rent_Wheels_App_Template;
+namespace RentWheelsApp;
 
 class Program : MauiApplication
 {

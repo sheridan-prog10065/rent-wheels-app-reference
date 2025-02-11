@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="Rent_Wheels_App_Template.WinUI.App"
+    x:Class="RentWheelsApp.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:Rent_Wheels_App_Template.WinUI">
+    xmlns:local="using:RentWheelsApp.WinUI">
 
 </maui:MauiWinUIApplication>
