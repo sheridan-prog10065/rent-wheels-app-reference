@@ -4,7 +4,9 @@
              x:Class="RentWheelsApp.RentalPage"
              Title="Rentals Contracts">
     <Grid RowDefinitions="Auto, Auto, Auto, Auto, *, Auto" ColumnDefinitions="*,*"
-          Margin="20, 0, 20, 80"
+          Margin="{OnPlatform Default='20, 0, 20, 80', 
+                              iOS='20, 0, 20, 100', 
+                              Android='20, 0, 20, 20'}"
           RowSpacing="10" ColumnSpacing="10">
         <Label Text="Rental Period" FontSize="24" 
                Margin="0, 20, 0, 0"
@@ -31,7 +33,7 @@
                Grid.ColumnSpan="2" />
 
         <Border Grid.Row="4" Grid.ColumnSpan="2">
-            <ListView HorizontalOptions="Fill" />
+            <CollectionView HorizontalOptions="Fill" />
         </Border>
         
         <Button Text="Create Rental"
