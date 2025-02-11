@@ -2,8 +2,13 @@
 
 public partial class RentalPage : ContentPage
 {
-    public RentalPage()
+    private SpeedyRentalShop _rentalShop;
+    public RentalPage(SpeedyRentalShop rentalShop)
     {
+        //initialize the business logic service before any controls are created
+        _rentalShop = rentalShop;
+        
         InitializeComponent();
+        
     }
 }
