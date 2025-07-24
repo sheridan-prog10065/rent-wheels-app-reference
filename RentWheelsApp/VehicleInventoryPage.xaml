@@ -21,7 +21,7 @@
             <Entry Placeholder="Enter the make of the vehicle" FontSize="17"/>
             <Label Text="Passenger capacity:" FontSize="14"/>
             <Entry Placeholder="Enter the passenger capacity" FontSize="17"/>        
-            <Label Text="Licensplate:" FontSize="14"/>
+            <Label Text="License plate:" FontSize="14"/>
             <Entry Placeholder="Enter the license plate number" FontSize="17"/>   
             <Label Text="Mileage" FontSize="14"/>
             <Entry Placeholder="Enter the current mileage" FontSize="17"/>  

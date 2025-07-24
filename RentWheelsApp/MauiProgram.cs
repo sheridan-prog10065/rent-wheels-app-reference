@@ -18,6 +18,7 @@ public static class MauiProgram
 		builder.Services.AddTransient<RentalPage>();
 		builder.Services.AddTransient<VehicleInventoryPage>();
 		
+		
 		return builder.Build();
 	}
 }
